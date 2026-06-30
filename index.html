@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>agrinho 2026</title>
-<meta charset="utf.8"/>
+    <meta charset="utf-8">
+    <title>Trabalho Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p></p>
 
+    <!-- ACESSIBILIDADE FIXA -->
+    <div style="text-align: right;">
+        <button id="botao-escuro">Mudar Fundo</button>
+    </div>
+
+    <h1>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h1>
+    <strong>#agrinho2026</strong>
+
+    <div class="bloco">
+        <h2>Como a comida chega até sua casa?</h2>
+        <p>Veja os exemplos abaixo:</p>
+        
+        <!-- ARROZ -->
+        <div class="item-alimento">
+            <h3>Arroz</h3>
+            <button class="botao-ver" data-nome="Arroz">Ver mais</button>
+        </div>
+
+        <!-- MILHO -->
+        <div class="item-alimento">
+            <h3>Milho</h3>
+            <button class="botao-ver" data-nome="Milho">Ver mais</button>
+        </div>
+
+        <!-- CHOCOLATE -->
+        <div class="item-alimento">
+            <h3>Chocolate</h3>
+            <button class="botao-ver" data-nome="Chocolate">Ver mais</button>
+        </div>
+
+        <!-- ESPAÇO PARA O TEXTO DA TRAJETÓRIA -->
+        <div id="bloco-resposta" class="escondido">
+            <h4 id="titulo-resposta"></h4>
+            <p id="texto-resposta"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-
-
 </html>
