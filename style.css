@@ -1,59 +1,18 @@
 body {
-    background-color: #c2f0c2;
-    color: #1e3d1e;
-    font-family: Arial, sans-serif;
-    padding: 15px;
-    transition: 0.3s;
+    background-color: rgb(133, 202, 133);
+    color: black;
+    font-family: Arial;
 }
 
-/* Modo Escuro */
+h1 {
+    font-family: 'Times New Roman';
+}
+
 body.modo-escuro {
-    background-color: #1a2e1a;
-    color: #e0f2e0;
-}
-
-.bloco {
-    background-color: #e2f7e2;
-    padding: 20px;
-    border-radius: 20px;
-    max-width: 450px;
-    margin: 15px auto;
-}
-
-body.modo-escuro .bloco {
-    background-color: #254025;
-}
-
-.item-alimento {
-    background-color: #8ed98e;
-    padding: 15px;
-    border-radius: 15px;
-    margin-bottom: 12px;
-    text-align: center;
-}
-
-button {
-    background-color: #1e3d1e;
+    background-color: rgb(0, 85, 0);
     color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .escondido {
     display: none;
-}
-
-#bloco-resposta {
-    background: white;
-    color: black;
-    padding: 12px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-@media (max-width: 480px) {
-    body { padding: 5px; }
-    h1 { font-size: 1.3rem; }
 }
