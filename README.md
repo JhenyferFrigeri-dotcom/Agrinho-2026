@@ -22,7 +22,7 @@ HTML
 CSS
 JavaScript
 
-Autor
+Autora
 Jhenyfer Marissa Moreira Frigeri 
 
 Textos e Imagens
